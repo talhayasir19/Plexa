@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "41377983132",
+    "firebase_url": "https://casian2-1e698-default-rtdb.firebaseio.com",
+    "project_id": "casian2-1e698",
+    "storage_bucket": "casian2-1e698.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41377983132:android:5213b37ea727f02162db59",
+        "android_client_info": {
+          "package_name": "com.example.casian2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41377983132-8ulkfkuja4unv7h12arleq1niiquti7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxEVL9kGng4E_1KiCw9rpZs_D42E71z0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41377983132-8ulkfkuja4unv7h12arleq1niiquti7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41377983132:android:cca213e0130ca7fd62db59",
+        "android_client_info": {
+          "package_name": "com.example.plexa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41377983132-8ulkfkuja4unv7h12arleq1niiquti7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxEVL9kGng4E_1KiCw9rpZs_D42E71z0Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41377983132-8ulkfkuja4unv7h12arleq1niiquti7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

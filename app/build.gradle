@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
+
+
+android {
+    compileSdk 32
+
+    defaultConfig {
+        applicationId "com.example.plexa"
+        minSdk 29
+        targetSdk 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth:21.0.7'
+
+    def cameraxVersion = "1.1.0-alpha05"
+    implementation "androidx.camera:camera-core:${cameraxVersion}"
+    implementation "androidx.camera:camera-camera2:${cameraxVersion}"
+    implementation "androidx.camera:camera-lifecycle:${cameraxVersion}"
+    implementation 'androidx.camera:camera-view:1.0.0-alpha25'
+    implementation "androidx.lifecycle:lifecycle-service:2.2.0-beta01"
+    def multidex_version = "2.0.1"
+    implementation "androidx.multidex:multidex:$multidex_version"
+    implementation 'com.burhanrashid52:photoeditor:2.0.0'
+    implementation 'com.oginotihiro:cropview:1.0.0'
+    implementation 'com.github.yalantis:ucrop:2.2.6-native'
+    implementation platform('com.google.firebase:firebase-bom:30.3.1')
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

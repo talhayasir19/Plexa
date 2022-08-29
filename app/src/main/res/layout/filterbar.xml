@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:weightSum="10"
+    android:background="@color/charcolblack">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Filtersreyclerview"
+        android:layout_width="wrap_content"
+        android:padding="8dp"
+               android:layout_height="0dp"
+        android:layout_weight="7.8"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:paddingBottom="5dp"
+        android:layout_weight="2.2">
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+             style="@style/MySeekBar"
+            android:progress="80"
+            android:layout_height="match_parent"
+            android:max="160"/>
+
+        <ImageView
+            android:id="@+id/addfilter"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+           android:src="@drawable/tick"
+            android:padding="5dp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

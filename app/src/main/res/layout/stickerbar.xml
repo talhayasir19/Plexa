@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@color/charcolblack"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:weightSum="10"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:text="Stickers"
+                android:textSize="25sp"
+                android:fontFamily="@font/doboto"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_weight="5.2"
+                android:layout_height="match_parent"/>
+            <ImageView
+                android:id="@+id/Stickerbtn"
+                android:layout_width="0dp"
+                android:layout_weight="1.8"
+                android:layout_height="match_parent"
+                android:src="@drawable/tick"
+                android:padding="11dp"
+                android:background="@drawable/editortbtnchanges"
+                android:gravity="center"/>
+
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/StickerRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:background="@color/charcolblack"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

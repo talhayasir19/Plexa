@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.camera.view.PreviewView
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/previewView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </androidx.camera.view.PreviewView>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/Capture"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:background="@drawable/capturebtnchanges"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+
+                app:layout_constraintBottom_toBottomOf="parent"/>
+        <ImageView
+            android:id="@+id/flip"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+             android:src="@drawable/flipcamera"
+                app:layout_constraintRight_toLeftOf="@id/Capture"
+                app:layout_constraintTop_toTopOf="@id/Capture"
+                app:layout_constraintBottom_toBottomOf="@id/Capture"
+                app:layout_constraintLeft_toLeftOf="parent"/>
+        <ImageView
+            android:id="@+id/Edit"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@color/white"
+            app:layout_constraintLeft_toRightOf="@id/Capture"
+            app:layout_constraintBottom_toBottomOf="@id/Capture"
+            app:layout_constraintTop_toTopOf="@id/Capture"
+            android:src="@drawable/editor"
+            android:backgroundTintMode="add"
+            app:layout_constraintRight_toRightOf="parent"/>
+        <ImageView
+            android:id="@+id/minus"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/minus"
+             app:layout_constraintTop_toBottomOf="@id/plus"
+            app:layout_constraintRight_toRightOf="parent"
+                android:layout_margin="30dp"/>
+        <ImageView
+            android:id="@+id/plus"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/plus"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+
+
+            android:layout_margin="30dp"/>
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+                android:background="#99000000"
+            android:weightSum="5"
+            android:orientation="horizontal"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                >
+                <ImageView
+                    android:id="@+id/flash"
+                    android:layout_width="0dp"
+                        android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:src="@drawable/flashoff"
+                        />
+                <ImageView
+                    android:id="@+id/brightness"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:src="@drawable/brightness"
+                    />
+                <ImageView
+                    android:id="@+id/zoom"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="12dp"
+                    android:src="@drawable/zoom"
+                    />
+                <ImageView
+                    android:id="@+id/size"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:src="@drawable/size"
+                    />
+                <ImageView
+                    android:id="@+id/filters"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:src="@drawable/filters"
+                    />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
