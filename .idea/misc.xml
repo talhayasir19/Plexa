@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/back.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/box.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/btnbackground1.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/btnbackground2.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/button.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/buttons.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/camera.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/cancel.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/capturebtnchanges.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/circle.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/edit.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/editortbtnchanges.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/filter.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/filters.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/flash.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/flip.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/minus.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/plus.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/progress.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/recycle.xml" value="0.1095" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/rotate.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/seekbar.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/seekbarstyle.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/size.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/sticker.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/stikerlayout.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/text.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/drawable/zoom.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_camera.xml" value="0.16" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_cropimage.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_editactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_editor.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_filter.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/activity_splash_screen.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/drawingbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/drawingbarr.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/filter.xml" value="0.18" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/filterbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/options.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/rotatebar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/stickerbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/layout/stickerlayout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/mipmap-anydpi-v26/camera.xml" value="0.11" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/Plexa/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.11" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

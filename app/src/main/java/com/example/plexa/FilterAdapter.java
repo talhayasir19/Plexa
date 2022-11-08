@@ -56,7 +56,6 @@ public class FilterAdapter extends RecyclerView.Adapter<FilterAdapter.FilterHold
                 @Override
                 public void onClick(View view) {
                     onClick.onClick(view,getAdapterPosition());
-
                 }
             });
 
